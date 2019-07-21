@@ -1,5 +1,5 @@
 
-const numOfNavItems = 5;
+const numOfNavItems = 3;
 const navItemHeight = calculateNavItemHeight();
 const navItemHalfHeight = navItemHeight / 2;
 
@@ -7,11 +7,9 @@ $( document ).ready(setUpNav);
 
 
 function setUpNav() {
-  addItemToNav("example1", "navItem1", "index.html");
-  addItemToNav("example2", "navItem2", "index.html");
-  addItemToNav("example3", "navItem3", "index.html");
-  addItemToNav("example4", "navItem4", "index.html");
-  addItemToNav("example5", "navItem5", "index.html");
+  addItemToNav("projects", "navItem1", "html/projects.html");
+  addItemToNav("who am i", "navItem4", "html/about.html");
+  addItemToNav("contact", "navItem5", "html/contact.html");
 }
 
 function addItemToNav(displayName, id, filepath) {
@@ -42,7 +40,7 @@ function hoverInHandler() {
   $(this).animate({
     width: "60vw",
     opacity: ".7",
-    letterSpacing: "10px"
+    letterSpacing: "15px"
   });
 }
 
@@ -59,5 +57,5 @@ function hoverOutHandler() {
 }
 
 function clickHandler(filepath) {
-  window.location.replace(filepath);
+  document.location.href = filepath;
 }

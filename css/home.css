@@ -1,0 +1,20 @@
+/*
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Comfortaa', cursive;
+ */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 4vw;
+  font-family: 'Bree Serif', serif;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 6em;
+}

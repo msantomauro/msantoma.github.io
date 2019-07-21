@@ -6,7 +6,7 @@ font-family: 'Comfortaa', cursive;
  */
 
 .navItem {
-  background-color: #73bfb8;
+  background-color: #d7816a;
   /* flex */
   display: flex;
   justify-content: center;
@@ -15,5 +15,4 @@ font-family: 'Comfortaa', cursive;
   font-family: 'Londrina Shadow', cursive;
   font-size: 4em;
   letter-spacing: "2px";
-  color: #000000;
 }
