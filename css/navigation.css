@@ -1,0 +1,19 @@
+/*
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Comfortaa', cursive;
+ */
+
+.navItem {
+  background-color: #73bfb8;
+  /* flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font */
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 4em;
+  letter-spacing: "2px";
+  color: #000000;
+}
