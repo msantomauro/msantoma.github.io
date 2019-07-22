@@ -4,7 +4,7 @@ let animationToggle = true;
 $( document ).ready(setUpAnimation);
 
 function setUpAnimation() {
-  $(".fullName").hover(animateNameOne, animateNameTwo);
+  //$(".fullName").hover(animateNameOne, animateNameTwo);
 }
 
 function animateNameOne() {
