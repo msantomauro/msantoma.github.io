@@ -18,3 +18,15 @@ h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 6em;
 }
+
+.firstName {
+  position: fixed;
+  top: 5vw;
+  right: 50vw;
+}
+
+.lastName {
+  position: fixed;
+  top: 5vw;
+  right: 5vw;
+}

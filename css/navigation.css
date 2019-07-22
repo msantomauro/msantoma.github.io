@@ -7,6 +7,8 @@ font-family: 'Comfortaa', cursive;
 
 .navItem {
   background-color: #d7816a;
+  border-bottom: #bd4f6c solid 10px;
+  border-top: #f0cf65 solid 10px;
   /* flex */
   display: flex;
   justify-content: center;

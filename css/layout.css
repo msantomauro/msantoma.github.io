@@ -2,7 +2,7 @@
 
 .pageContent {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 30vw 70vw;
   grid-template-rows: auto;
   background-color: #f0cf65;
 }

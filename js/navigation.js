@@ -1,5 +1,5 @@
 
-const numOfNavItems = 3;
+const numOfNavItems = 4;
 const navItemHeight = calculateNavItemHeight();
 const navItemHalfHeight = navItemHeight / 2;
 
@@ -8,8 +8,9 @@ $( document ).ready(setUpNav);
 
 function setUpNav() {
   addItemToNav("projects", "navItem1", "html/projects.html");
-  addItemToNav("who am i", "navItem4", "html/about.html");
-  addItemToNav("contact", "navItem5", "html/contact.html");
+  addItemToNav("who am i", "navItem2", "html/about.html");
+  addItemToNav("resume", "navItem3", "tbd");
+  addItemToNav("contact", "navItem4", "html/contact.html");
 }
 
 function addItemToNav(displayName, id, filepath) {
