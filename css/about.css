@@ -7,26 +7,46 @@ font-family: 'Comfortaa', cursive;
 
 body {
   background-color: #f0cf65;
+  margin: 0;
+  padding: 0;
 }
 
 .pageContent {
+  width: 100%;
   display: flex;
   flex-direction:column;
   align-items: flex-start;
-  margin: 0;
 }
 
+
 .heading {
+  border-bottom: #bd4f6c solid 10px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
   width: 100%;
+  height: 40vh;
 }
 
 h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 6em;
-  margin: 0 0 0 10vw;
+  margin:0;
+  padding:0;
 }
 
 .body {
   font-family: 'Comfortaa', cursive;
-  width: 80%;
+  padding: 5vw;
+  border: #d7816a solid 10px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-left: 5vw;
+  background-color: #93b5c6;
+}
+
+h2,p {
+  margin:0;
+  padding: 0;
 }
