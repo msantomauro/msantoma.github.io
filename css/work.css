@@ -1,0 +1,11 @@
+h1,h2,p {
+  font-family: brevia, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 50% 50%;
+}
