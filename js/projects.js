@@ -4,21 +4,20 @@ function setUpPage() {
   const projectList = ["FIRST PROJECT", "SECOND PROJECT", "THIRD PROJECT"];
 
   let i;
+  let linkID;
+  let projectID;
   for (i = 0; i < projectList.length; i++) {
-    addProjectToList(projectList[i], "project" + i)
+    linkID = "link" + i;
+    projectID = "project" + i;
+    addProjectToList(projectList[i], linkID, projectID);
   }
   $(".projectLink").hover(linkEnter, linkLeave);
 }
 
-function addProjectToList(name, id) {
-  const newElt = `<div class="projectLink">${name}</div>`
+function addProjectToList(name, linkID, projectID) {
+  const newElt = `<div class="projectLink" id=${linkID}>${name}</div>`
   $(".projectLinks").append(newElt);
-
-  $(this).click(function() {
-    $('html, body').animate({
-        scrollTop: $("#" + id).offset().top
-    }, 50);
-  });
+  $("#" + linkID).click(function(){scrollToID(projectID);});
 }
 
 function linkEnter() {
@@ -37,4 +36,11 @@ function linkLeave() {
   $(this).animate({
     letterSpacing: "2px"
   });
+}
+
+function scrollToID(id) {
+  console.log("we scrolling to id: " + id);
+  $('html, body').animate({
+      scrollTop: $("#" + id).offset().top
+  }, 50);
 }
