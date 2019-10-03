@@ -10,7 +10,7 @@ function setUpNav() {
   addItemToNav("projects", "navItem1", "html/projects.html");
   addItemToNav("experience", "navItem2", "html/workExperience.html");
   addItemToNav("who am i", "navItem3", "html/about.html");
-  addItemToNav("resume", "navItem4", "tbd");
+  addItemToNav("resume", "navItem4", "Mia_Santomauro_Resume.pdf");
   addItemToNav("contact", "navItem5", "html/contact.html");
 }
 

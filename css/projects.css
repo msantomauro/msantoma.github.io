@@ -31,6 +31,10 @@ h2 {
   font-size: 4em;
 }
 
+p {
+    font-size: 1.08em;
+}
+
 .projectLinks {
   width: 100%;
   display: flex;
@@ -43,4 +47,8 @@ h2 {
   display: inline;
   margin: 2vw;
   letter-spacing: 2px;
+}
+
+.project {
+    width: 65%;
 }

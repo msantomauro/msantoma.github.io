@@ -6,15 +6,16 @@ font-family: 'Comfortaa', cursive;
  */
 
 .navItem {
-  background-color: #d7816a;
-  border-bottom: #bd4f6c solid 10px;
-  border-top: #f0cf65 solid 10px;
+color: white;
+  background-color: #406E8E;
+  border-top: #FFFFFF solid 10px;
+  border-bottom: #23395B solid 10px;
   /* flex */
   display: flex;
   justify-content: center;
   align-items: center;
   /* font */
-  font-family: 'Londrina Shadow', cursive;
-  font-size: 4em;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
   letter-spacing: "2px";
 }

@@ -1,7 +1,7 @@
 $( document ).ready(setUpPage);
 
 function setUpPage() {
-  const projectList = ["FIRST PROJECT", "SECOND PROJECT", "THIRD PROJECT"];
+  const projectList = ["2D GAME ENGINE", "MAPS", "AUTOCORRECT"];
 
   let i;
   let linkID;
