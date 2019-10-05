@@ -23,7 +23,7 @@ function addProjectToList(name, linkID, projectID) {
 function linkEnter() {
   $(this).css("cursor", "grab");
   $(this).css("text-decoration-line", "underline");
-  $(this).css("text-decoration-color", "red");
+  $(this).css("text-decoration-color", "#406E8E");
   $(this).css("text-decoration-style", "wavy");
   $(this).animate({
     letterSpacing: "5px"

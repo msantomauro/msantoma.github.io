@@ -22,7 +22,6 @@
       </div>
 
       <div class="project" id="project0">
-        <h1>1.</h1>
         <h2>2D Game Engine</h2>
         <p>
             As part of a semester-long project, I am implementing a comprehensive
@@ -31,19 +30,37 @@
             detect in-game collisions, and many more capabilities.
         </p>
         <p>
-            One of the very first steps I took was understanding the
-            something of execution in order
-            to design the frameworks upon which my games would be built.
+            Essential to the implementation of this engine is an
+            understanding of the flow of execution.
+
+            In my design, program execution starts at the Application,
+            then percolates through layers of increasing specificity and intricacy.
         </p>
+        <p>
+            Take the journey of a single key press for example.
+        </p>
+        <p>
+
+            When the user presses the 'a' key, the current running Application
+            passes the event along to the GameWorld, current active Screen, and ViewPort.
+
+            The GameWorld passes execution along to its Systems,
+            which pass executions to specific behaviors, which in turn update the state
+            of the GameObjects to which they belong.
+
+            The Screen and ViewPort pass execution along in a similar fashion.
+        </p>
+
+        <!-- <img src="" alt="flow of execution diagram" width="%100"> -->
+
         <p> I have built three games thus far on top of my engine:</p>
-        <p><b>Tic Tac Toe:</b> my rendition of tic-tac-toe, which allows for multiple grid sizes!</p>
-        <p><b>Alchemy:</b> my rendition of <a href="https://littlealchemy.com/" target="_blank">this delightful game</a></p>
-        <p><b>Paws off my Crops:</b> a work in progress involving tending to, and protecting, produce</p>
+        <p><b>Tic Tac Toe:</b> a digital recreation of the classic game</p>
+        <p><b>Alchemy:</b> my rendition of <a href="https://littlealchemy.com/" target="_blank">this game</a></p>
+        <p><b>Paws off my Crops:</b> a work in progress involving tending to, and protecting, a farm.</p>
         <!-- TODO: request code button -->
       </div>
 
       <div class="project" id="project1">
-        <h1>2.</h1>
         <h2>Maps</h2>
         <p>Maps was a full-stack software engineering assignment.
             My partner and I were tasked with querying a database,
@@ -52,7 +69,6 @@
       </div>
 
       <div class="project" id="project2">
-        <h1>3.</h1>
         <h2>Autocorrect</h2>
         <p>
             This was another full-stack engineering assignment that involved
