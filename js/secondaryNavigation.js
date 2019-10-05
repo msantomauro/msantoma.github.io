@@ -1,24 +1,22 @@
-$( document ).ready(setUpPage);
+$(document).ready(setUpPage);
 
 function setUpPage() {
-  $("#homeLink").hover(homeLinkEnter, homeLinkLeave);
-  $("#homeLink").click(linkSelect);
+    $(".homeLink").hover(homeLinkEnter, homeLinkLeave);
+    $(".homeLink").click(homeLinkSelect);
 }
 
 function homeLinkEnter() {
   $(this).css("cursor", "grab");
-  $(this).animate({
-    // tbd 
+  $(".navigation").animate({
   });
 }
 
 function homeLinkLeave() {
   $(this).css("cursor", "default");
-  $(this).animate({
-    // tbd
+  $(".navigation").animate({
   });
 }
 
-function linkSelect() {
+function homeLinkSelect() {
   document.location.href = "../index.html";
 }

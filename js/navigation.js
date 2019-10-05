@@ -9,9 +9,9 @@ $( document ).ready(setUpNav);
 function setUpNav() {
   addItemToNav("projects", "navItem1", "html/projects.html");
   addItemToNav("experience", "navItem2", "html/underDev.html");
-  addItemToNav("who am i", "navItem3", "html/underDev.html");
+  addItemToNav("about", "navItem3", "html/underDev.html");
   addItemToNav("resume", "navItem4", "Mia_Santomauro_Resume.pdf");
-  addItemToNav("contact", "navItem5", "html/underDev.html");
+  addItemToNav("contact", "navItem5", "html/contact.html");
 }
 
 function addItemToNav(displayName, id, filepath) {

@@ -1,0 +1,14 @@
+.contactLinks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin-bottom: 20vh;
+}
+
+.contactLink {
+  font-family: 'Raleway', sans-serif;
+  margin: 2vw;
+  letter-spacing: 2px;
+}

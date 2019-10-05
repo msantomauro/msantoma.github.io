@@ -39,7 +39,6 @@ function linkLeave() {
 }
 
 function scrollToID(id) {
-  console.log("we scrolling to id: " + id);
   $('html, body').animate({
       scrollTop: $("#" + id).offset().top
   }, 50);
