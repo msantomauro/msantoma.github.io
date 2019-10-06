@@ -37,7 +37,7 @@ function setUpNavItem(navItem, filepath) {
 function hoverInHandler() {
 
   // sets cursor to grab
-  $(this).css("cursor", "grab");
+  $(this).css("cursor", "pointer");
 
   $(this).animate({
     width: "60vw",

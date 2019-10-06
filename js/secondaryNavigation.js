@@ -6,7 +6,7 @@ function setUpPage() {
 }
 
 function homeLinkEnter() {
-  $(this).css("cursor", "grab");
+  $(this).css("cursor", "pointer");
   $(".navigation").animate({
   });
 }

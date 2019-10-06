@@ -8,7 +8,7 @@ function setUpPage() {
 }
 
 function linkEnter() {
-  $(this).css("cursor", "grab");
+  $(this).css("cursor", "pointer");
   $(this).css("text-decoration-line", "underline");
   $(this).css("text-decoration-color", "#406E8E");
   $(this).css("text-decoration-style", "wavy");
